@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royally Rich in '26: The Seven Levels of Richness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <!-- Narrative Plan: Start with the foundational spiritual level and build up sequentially to the final level of tangible results, showing a clear progression. -->
+    <!-- Visualization Choices: A vertical flowchart created with structured HTML/CSS to represent the 7 levels. Each level is a card with a Unicode icon to visually represent the concept (e.g., 🙏, 💡, ❤️). Goal is to Organize/Inform. This method uses NO SVG and NO MERMAID JS. -->
+    <!-- Color Palette: Custom Blue & Orange -->
+    <!-- Confirmation: NO MERMAID JS NOR SVG were used in this output. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #E0F2FE; /* Light Sky Blue background */
+        }
+        .font-serif-display {
+            font-family: 'Playfair Display', serif;
+        }
+        .level-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .level-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+
+        <header class="text-center mb-16">
+            <p class="text-lg font-semibold text-sky-600">Spirit of Victory and Praise Community Church Presents</p>
+            <h1 class="font-serif-display text-5xl md:text-7xl font-black text-orange-600">Royally Rich in '26</h1>
+            <p class="mt-4 text-xl md:text-2xl text-sky-800">The Seven Levels of Richness</p>
+        </header>
+
+        <main class="relative flex flex-col items-center">
+            <!-- Dotted line connector -->
+            <div class="absolute top-0 left-1/2 w-1 h-full -translate-x-1/2">
+                <div class="h-full w-full border-l-2 border-dashed border-orange-300"></div>
+            </div>
+
+            <div class="space-y-12 w-full">
+                
+                <!-- Level 1 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">🙏</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 1</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Spiritual Riches</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">The foundation of all wealth. This is the understanding that we have received spiritual abundance in Jesus Christ, which is the starting point for all other forms of richness.</p>
+                </div>
+
+                <!-- Level 2 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">💡</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 2</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Thoughts</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">Cultivating a renewed mind—the mind of Christ. This involves focusing your thinking on things that will benefit and bless both yourself and others, creating a mental environment for prosperity.</p>
+                </div>
+
+                <!-- Level 3 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">🧭</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 3</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Values, Beliefs & Attitudes</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">Adopting empowering and enlightening values and beliefs about God and life. This is the internal compass that guides your actions and shapes your reality.</p>
+                </div>
+
+                <!-- Level 4 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">💬</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 4</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Words</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">Understanding that life and death are in the power of the tongue. This level involves speaking Words of Life that edify, build up, benefit, and bless God, others, and ourselves.</p>
+                </div>
+
+                <!-- Level 5 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">❤️</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 5</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Relationships</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">Nurturing our connections with others, especially those in our homes and in the body of Christ. True wealth is found in the quality of our relationships.</p>
+                </div>
+
+                <!-- Level 6 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">💎</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 6</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Resources</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">Recognizing that all resources belong to God and we are His stewards. We are the conduits through which God brings His wealth from the spiritual world into the world of our senses.</p>
+                </div>
+
+                <!-- Level 7 -->
+                <div class="level-card relative bg-white rounded-2xl shadow-xl p-6 border-t-4 border-orange-500">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0 text-4xl">🏆</div>
+                        <div>
+                            <p class="text-sm font-bold text-orange-500">LEVEL 7</p>
+                            <h2 class="text-2xl font-bold text-sky-800">Rich Results</h2>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mt-4">The final level is the manifestation of rich results in our lives. As Jesus said, "by their fruit you shall know them." When we align with the first six levels, God makes everything we do prosper.</p>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+</body>
+</html>
